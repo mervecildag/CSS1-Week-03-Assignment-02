@@ -1,0 +1,98 @@
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 300px solid #B3472C;
+    /* display: flex; 
+    justify-content: center;
+    flex-direction: row; */
+    
+}
+
+.chimny-upper {
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 60px;
+    height: 10px;
+    background-color: #A9A9A9;
+    
+   
+}
+
+.chimny{
+    width: 40px;
+    height: 60px;
+    background-color: #808080;
+    margin-left: 100px;
+    
+}
+.house {
+    width: 800px;
+    height: 400px;
+    background-color: #E37D55;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+
+.windows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.windows-left {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.windows-right {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+table, tr, td{
+    width: 100px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.door {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 140px;
+    border: 5px solid;
+    background-color: #DE5939;
+    border-color: #C74B3E;
+    border-bottom-color: black;
+    margin-left: 350px;
+}
+.door-knob{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 10px;
+}
